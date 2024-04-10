@@ -1,0 +1,16 @@
+.recuadro{
+    border: 2px red solid;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.monto{
+    border:2px solid black
+
+}
+
+.descripcion{
+    border-radius: 20%;
+    
+
+}
