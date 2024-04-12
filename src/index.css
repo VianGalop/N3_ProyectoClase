@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -150,4 +151,51 @@ img{
 .listCategory tr{
   border: #0056b3 2px solid;
   align-items: center;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.cuerpo {
+  background-color: transparent;
+  border: 3px solid rgb(12, 19, 11);
+  border-color: rgb(147, 148, 147);
+  border-radius: 20px;
+  width: 400px;
+  min-height: 700px;
+  display: block;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.textSaldo {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.numeroSaldo {
+  height: 60px;
+  width: 350px;
+  margin-left: 20px;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: rgb(238, 157, 90);
+  align-content: center;
+>>>>>>> yon1
 }

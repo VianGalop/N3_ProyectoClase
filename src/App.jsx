@@ -4,6 +4,9 @@ import { Boton } from './components/Button'
 import { FormEntrada, Salida } from './components/Entrada'
 import { FormNewCategory, ListCategory } from './components/Form/Categoria'
 
+import './index.css'
+import { ListaLu } from './components/BotonList'
+
 function App() {
   const [isOpenEnt, setIsOpenEnt] = useState(false)
   const [isOpenSal, setIsOpenSal] = useState(false)
@@ -12,6 +15,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     <div className="container">
       <Boton tipo="button" className="button" idBoton='addContactBtn' setAccion={() => setIsOpenEnt(true)} label="Nueva Entrada" />
       <Boton tipo="button" className="button" idBoton='addContactBtn' setAccion={() => setIsOpenSal(true)} label="Nueva Salida" />
@@ -46,6 +50,18 @@ function App() {
            <ListCategory/>
        </Modal>
     }
+=======
+      <div className="cuerpo">
+        <h1>Control de ingresos y gastos</h1>
+        <div className="saldo">
+            <h3 className="textSaldo">saldo</h3>
+            <div className="numeroSaldo">
+                <h3>$ 3000</h3>
+            </div>
+        </div>
+        <ListaLu />
+      </div>
+>>>>>>> yon1
     </>
   )
 }
