@@ -1,9 +1,9 @@
 import './botones.css'
 
-export const ListaLi = ({name}) => {
+export const ListaLi = ({setAccion, name}) => {
     return (
         <>
-            <li><button>{name}</button></li>
+            <li><button onClick={setAccion}>{name}</button></li>
         </>
     )
 }

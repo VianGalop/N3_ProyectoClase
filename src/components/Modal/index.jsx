@@ -1,5 +1,5 @@
 import React, { children } from 'react'
-import { FormEntrada, Salida } from '../Entrada'
+import { FormEntrada, Salida } from '../Gastos'
 
 export const Modal = ({title, children, setIsOpen}) => {
     return (
