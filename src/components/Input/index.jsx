@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const Input = ({ type, id, name, label, onChange, value}) => {
+export const Input = ({ type, id, name, label, value}) => {
     return (
         <>
             <label htmlFor={id}>{label}:</label>
-            <input value={value} onChange={(e)=>onChange(e.target.value)} type={type} id={id} name={name} readOnly />
+            <input  type={type} id={id} name={name} value={value}  size="5" pattern="{0,9}"/>
         </>
 
     )
@@ -14,9 +14,8 @@ export const TextArea = ({id, label, value}) =>{
     return(
         <>
             <label htmlFor={id}>{label}</label>
-            <textarea className='descripcion' value={value} readOnly></textarea>
+            <textarea className='descripcion'></textarea>
         </>
         
     )
 }
-
