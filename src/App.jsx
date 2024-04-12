@@ -15,8 +15,8 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-    <div className="container">
+ 
+    {/* <div className="container">
       <Boton tipo="button" className="button" idBoton='addContactBtn' setAccion={() => setIsOpenEnt(true)} label="Nueva Entrada" />
       <Boton tipo="button" className="button" idBoton='addContactBtn' setAccion={() => setIsOpenSal(true)} label="Nueva Salida" />
       <Boton tipo="button" className="button" idBoton='addContactBtn' setAccion={() => setIsOpenCatego(true)} label="Categoria" />
@@ -49,9 +49,9 @@ function App() {
        <Modal title="Listado Categorias" setIsOpen={() => setIsOpenListado(false)}> 
            <ListCategory/>
        </Modal>
-    }
-=======
-      <div className="cuerpo">
+    } */}
+ 
+{/*       <div className="cuerpo">
         <h1>Control de ingresos y gastos</h1>
         <div className="saldo">
             <h3 className="textSaldo">saldo</h3>
@@ -60,8 +60,8 @@ function App() {
             </div>
         </div>
         <ListaLu />
-      </div>
->>>>>>> yon1
+      </div> */}
+ 
     </>
   )
 }

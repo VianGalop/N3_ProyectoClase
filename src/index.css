@@ -1,6 +1,13 @@
-<<<<<<< HEAD
+ 
 body {
   font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: #f4f4f4;
 }
 
@@ -151,20 +158,14 @@ img{
 .listCategory tr{
   border: #0056b3 2px solid;
   align-items: center;
-=======
+ 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f4f4f4;
-}
+
 
 .cuerpo {
   background-color: transparent;
