@@ -15,7 +15,8 @@ function App() {
           </div>
         </div>
         <ListaLu />
-      </div> 
+
+      </div>
     </>
   )
 }
