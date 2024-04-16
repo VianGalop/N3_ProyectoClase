@@ -6,16 +6,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
 }
+
 
 .container {
   border: 2px red solid;
@@ -34,7 +31,7 @@ body {
 .container button {
   display: block;
   margin: 20px 10px;
-  background-color: #007bff;
+  /* background-color: #007bff; */
   cursor: pointer;
   border: none;
   outline: none;
@@ -48,15 +45,16 @@ body {
 .button {
   display: block;
   margin: 20px 10px;
-  background-color: #007bff;
+  background-color: #529931;
   cursor: pointer;
   border: none;
   outline: none;
   padding: 0.3rem 0.8rem;
-  color: #ffffff;
-  border-radius: 10px;
-  font-size: 1.8rem;
-  width: 340px;
+  color: hsl(39, 31%, 18%);
+  border-radius: 12px;
+  font-size: 1.5rem;
+  width: 330px;
+  font-family:sans-serif
 }
 
 
@@ -107,7 +105,7 @@ body {
 .modal-content button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #2682e6;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -121,6 +119,8 @@ body {
 
 .titulo {
   text-align: center;
+  color: rgb(187, 47, 12);
+  font-family:Georgia;
 }
 
 .close {
@@ -164,10 +164,9 @@ img {
 }
 
 .listCategory tr {
-  border: #0056b3 2px solid;
+  border: 2px solid #ccc;
   align-items: center
 }
-
 
 
 .cuerpo {
