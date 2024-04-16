@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Input, TextArea } from '../Input'
 import { Boton } from '../Button'
 import { Select } from '../Select'
+import { Modal } from '../Modal'
+import { ListCategory } from '../Form/Categoria'
 
 export const FormEntrada = () => {
     const [isOpenListado, setIsOpenListado] = useState(false)
@@ -10,8 +12,7 @@ export const FormEntrada = () => {
             <form id="contactForm" onSubmit="handleSubmit">
                 <Input type='text' id='monto' name='monto' label='Monto'/>
                 <TextArea id='Descripcion' label='Descripcion:' />
-                <Boton tipo="button" className="button" idBoton='addContactBtn'  label="Aplicar" />
-                <Boton tipo="button" className="button" idBoton='addContactBtn'  label="Listado" />
+                <Boton tipo="button" className="button" idBoton='addContactBtn'  label="Guardar" />
             </form>
         {
                 isOpenListado  &&
@@ -29,8 +30,8 @@ export const Salida = ()=>{
     return(
         <>
             <form id="contactForm" onSubmit="handleSubmit">
-                <Input type='text' id='monto' name='monto'label='Monto'/>
                 <Select opciones="Transporte"/>
+                <Input type='text' id='monto' name='monto'label='Monto'/>                
                 <TextArea id='Descripcion' label='Descripcion:'/>
                 <Boton tipo="button" className="button" idBoton='addContactBtn'  label="Aplicar" />
             </form>
