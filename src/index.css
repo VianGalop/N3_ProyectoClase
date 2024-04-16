@@ -14,7 +14,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f4;
+  background-image: url('public/istockphoto-1432473911-612x612.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -171,7 +173,7 @@ img {
 
 
 .cuerpo {
-  background-color: transparent;
+  background-color: whitesmoke;
   border: 3px solid rgb(12, 19, 11);
   border-color: rgb(147, 148, 147);
   border-radius: 20px;
