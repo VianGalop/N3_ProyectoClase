@@ -7,7 +7,7 @@ import { FormNewCategory, ListCategory } from '../Form/Categoria'
 /* import { ReporteS } from '../Reportes/Reportes' */
 import { BotonesRep } from '../Reportes/tresbotones'
 
-export const ListaLu = () => {
+export const ListaLu = ({monto, setMonto}) => {
   const [isOpenEnt, setIsOpenEnt] = useState(false)
   const [isOpenSal, setIsOpenSal] = useState(false)
   const [isOpenBotonsRep, setIsOpenBotonsRep] = useState(false)
@@ -24,7 +24,7 @@ export const ListaLu = () => {
       {
         isOpenEnt &&
         <Modal title="Entrada" setIsOpen={() => setIsOpenEnt(false)}>
-          <FormEntrada />
+          <FormEntrada monto={monto} setMonto={setMonto} setIsOpen={() => setIsOpenEnt(false)}/>
         </Modal>
       }
       {
